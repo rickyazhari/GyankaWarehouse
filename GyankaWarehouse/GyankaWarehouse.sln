@@ -5,16 +5,27 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GyankaWarehouse", "GyankaWarehouse\GyankaWarehouse.csproj", "{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "GyankaDataStaging", "GyankaDataStaging\GyankaDataStaging.dtproj", "{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A02CD8-81CB-4FE2-A7DD-45E2C4D1C689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Debug|Any CPU.ActiveCfg = Development
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Debug|Any CPU.Build.0 = Development
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Development|Any CPU.ActiveCfg = Development
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Development|Any CPU.Build.0 = Development
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Release|Any CPU.ActiveCfg = Development
+		{6610D93C-D6F1-4F3E-9E62-0AB2C31CB848}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
