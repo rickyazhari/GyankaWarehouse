@@ -1,22 +1,31 @@
 1.	Informasi jumlah permintaan karyawan dari user divisi manufaktur dalam periode per bulan dan per tahun.==dim==finish
 2.	Informasi jumlah permintaan karyawan dari user divisi public area dalam periode per bulan dan per tahun.==dim==finish
-3.	Informasi banyaknya kebutuhan user divisi manufaktur berdasarkan pendidikan periode per bulan dan per tahun.==dim==finish
-4.	Informasi banyaknya kebutuhan user divisi public area berdasarkan pendidikan periode per bulan dan per tahun.==dim==finish
-5.	Informasi banyaknya kebutuhan user divisi manufaktur berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
-6.	Informasi banyaknya kebutuhan user divisi public area berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
-7.	Informasi banyaknya kebutuhan user divisi manufaktur berdasarkan usia periode per bulan dan per tahun.==dim==finish
-8.	Informasi banyaknya kebutuhan user divisi public area berdasarkan usia periode per bulan dan per tahun.==dim==finish
-9.	Informasi persentase calon karyawan yang lulus dalam tes awal penerimaan tiap divisi periode per bulan dan per tahun.==dim==finish
-10.	Informasi persentase calon karyawan yang tidak lulus dalam tes awal penerimaan tiap divisi periode per bulan dan per tahun.==dim==finish
-11.	Informasi banyaknya calon karyawan yang lulus tes namun belum ditempatkan kerja berdasarkan pendidikan  dan divisi periode per bulan dan per tahun.==dim==finish
-12.	Informasi banyaknya calon karyawan yang lulus tes namun belum ditempatkan kerja berdasarkan usia  dan divisi periode per bulan dan per tahun.==dim==finish
-13.	Informasi banyaknya calon karyawan yang lulus tes namun belum ditempatkan kerja berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
-14.	Informasi jumlah pelamar wanita yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per bulan dan per tahun. 
-15.	Informasi jumlah pelamar wanitayang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per tahun.
-16.	Informasi jumlah pelamar pria yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per bulan dan per tahun. 
-17.	Informasi jumlah pelamar pria yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per tahun.
-18.	Informasi pengeluaran perusahaan untuk biaya tes dan pelatihan  termasuk jenis tes dalam periode per bulan dan per tahun. == dim = finish
-19.	Informasi pengeluaran perusahaan untuk biaya operasional dalam periode per bulan dan per tahun.==dim == finish 
-20.	Informasi pengeluaran perusahaan untuk biaya event termasuk jenis event dalam periode per bulan dan per tahun.==dim finish
-21.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub manufaktur dalam periode per bulan dan per tahun==dim 
-22.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub Public Area periode per bulan dan per tahun.==dim
+3.	Informasi jumlah permintaan karyawan dari user divisi manufaktur dalam periode per tahun.==dim==finish
+4.	Informasi jumlah permintaan karyawan dari user divisi public area dalam periode per tahun.==dim==finish
+5.	Informasi jumlah permintaan karyawan dari user divisi manufaktur berdasarkan pendidikan  dan jenis kelamin dalam periode perbulan dan per tahun.
+6.	Informasi jumlah permintaan karyawan dari user divisi public area berdasarkan pendidikan dan jenis kelamin dalam periode  perbulan danper tahun.
+7.	Informasi jumlah permintaan karyawan dari user divisi manufaktur berdasarkan pendidikan  dan jenis kelamin dalam periode per tahun.
+8.	Informasi jumlah permintaan karyawan dari user divisi public area berdasarkan pendidikan dan jenis kelamin dalam periode per tahun.
+9.	Informasi jumlah permintaan karyawan dari user divisi manufaktur berdasarkan pendidikan periode per bulan dan per tahun.==dim==finish
+10.	Informasi jumlah permintaan karyawan dari divisi public area berdasarkan pendidikan periode per bulan dan per tahun.==dim==finish
+11.	Informasi jumlah permintaan karyawan dari divisi manufaktur berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
+12.	Informasi jumlah permintaan karyawan dari divisi public area berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
+13.	Informasi jumlah permintaan karyawan dari divisi manufaktur berdasarkan usia periode per bulan dan per tahun.==dim==finish
+14.	Informasi jumlah permintaan karyawan dari divisi public area berdasarkan usia periode per bulan dan per tahun.==dim==finish
+15.	Informasi jumlah calon karyawan yang lulus tes dan telah ditempatkan ditempatkan kerja berdasarkan pendidikan  dan divisi periode per bulan dan per tahun.==dim==finish
+16.	Informasi jumlah calon karyawan yang lulus tes dan telah ditempatkan kerja berdasarkan usia  dan divisi periode per bulan dan per tahun.==dim==finish
+17.	Informasi jumlah calon karyawan yang lulus tes dan telah ditempatkan kerja berdasarkan jenis kelamin periode per bulan dan per tahun.==dim==finish
+18.	Informasi jumlah pelamar wanita yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per bulan dan per tahun. 
+19.	Informasi jumlah pelamar wanitayang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per tahun.
+20.	Informasi jumlah pelamar pria yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per bulan dan per tahun. 
+21.	Informasi jumlah pelamar pria yang memasukan lamaran ke PT. Gyanka Pratama berdasarkan pendidikan periode per tahun.
+22.	Informasi pengeluaran perusahaan untuk biaya tes dan pelatihan  termasuk jenis tes dalam periode per bulan dan per tahun. == dim = finish
+23	Informasi pengeluaran perusahaan untuk biaya tes dan pelatihan  termasuk jenis tes dalam periode per tahun.
+23.	Informasi pengeluaran perusahaan untuk biaya operasional dalam periode per bulan dan per tahun.==dim == finish 
+24.	Informasi pengeluaran perusahaan untuk biaya operasional dalam periode per tahun.
+25.	Informasi pengeluaran perusahaan untuk biaya event termasuk jenis event dalam periode per bulan dan per tahun.==dim finish
+26	Informasi pengeluaran perusahaan untuk biaya event termasuk jenis event dalam periode per tahun.
+27.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub manufaktur dalam periode per bulan dan per tahun==dim 
+28.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub manufaktur dalam periode per tahun
+29.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub Public Area periode per bulan dan per tahun.==dim
+30.	Informasi pendapatan perusahaan dalam memenuhi kebutuhan pengguna sub Public Area periode per tahun
