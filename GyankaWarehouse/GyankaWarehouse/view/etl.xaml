@@ -1,0 +1,95 @@
+﻿<Window x:Class="GyankaWarehouse.view.etl"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      xmlns:ViewModel ="clr-namespace:GyankaWarehouse.viewmodel"
+      d:DataContext="{Binding Source={d:DesignInstance IsDesignTimeCreatable=True,Type=ViewModel:EtlViewModel}}"
+      d:DesignHeight="500" d:DesignWidth="300"
+      Width="700" Height="300"
+	Title="etl" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" BorderThickness="1" SnapsToDevicePixels="True">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF398AC1" Offset="0"/>
+            <GradientStop Color="#FFF8F7FF" Offset="1"/>
+            <GradientStop Color="#FF5E9FD3" Offset="0.303"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+              Margin="10,5,5,10">
+            <TextBlock
+                x:Name="exitbtn"
+                HorizontalAlignment="Right"
+                Text="X"
+                Width="12"
+                Height="16"
+                
+                Foreground="#ffffff"
+                FontWeight="Bold"
+                FontStretch="ExtraExpanded"
+                FontSize="12"
+                Cursor="Hand" MouseLeftButtonUp="exitbtn_MouseLeftButtonUp" />
+            <TextBlock
+                Foreground="#ffffff"
+                Text="Gyanka Pratama Warehouse"
+                FontSize="27"
+                FontWeight="Bold"/>
+            <TextBlock
+                Margin="0,5,0,0"
+                Foreground="#ffffff"
+                Text="ETL"
+                FontSize="20"
+                />
+
+        </StackPanel>
+        <Grid
+            Grid.Row="1"
+            Margin="0,0,0,10"
+            >
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="130"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <TextBlock
+                    Visibility="Hidden"
+                    Text="Proses ETL, Silahkan tunggu"
+                    x:Name="proseslbl"
+                    Margin="30,0,0,30"/>
+           <ProgressBar 
+                 x:Name="pbLoading"
+                 IsIndeterminate="{Binding Loading}"
+                 Foreground="#FF0A0A53"
+                 Background="{x:Null}"
+                 VerticalAlignment="Top"
+                 Visibility="Hidden"
+                 Width="500"
+                 Height="2"
+                    />
+            </StackPanel>
+            <StackPanel
+                Grid.Row="0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom">
+                    <Button x:Name="Etlbtn"
+                        Height="50"
+                        Width="150"
+                        Background="#FF094285"
+                        Foreground="#ffffff"
+                         HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"  
+                        Visibility="Visible" Click="Etlbtn_Click">
+                        <TextBlock>PROSES</TextBlock>
+                    </Button>
+                </StackPanel>
+                
+            </Grid>
+    </Grid>
+</Window>

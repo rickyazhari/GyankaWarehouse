@@ -34,6 +34,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FirstFloor.ModernUI">
+      <HintPath>..\..\..\..\proj\ikhsan\PTPWarehouse\PTPWarehouse\AppWarehouse\bin\Debug\FirstFloor.ModernUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SQLServer.ManagedDTS, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proj\ikhsan\PTPWarehouse\PTPWarehouse\AppWarehouse\bin\Debug\Microsoft.SQLServer.ManagedDTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.IntegrationServices, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proj\ikhsan\PTPWarehouse\PTPWarehouse\AppWarehouse\bin\Debug\Microsoft.SqlServer.Management.IntegrationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proj\ikhsan\PTPWarehouse\PTPWarehouse\AppWarehouse\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proj\ikhsan\PTPWarehouse\PTPWarehouse\AppWarehouse\bin\Debug\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -53,7 +72,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Compile Include="kon.cs" />
+    <Compile Include="view\DimFact.xaml.cs">
+      <DependentUpon>DimFact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\menu.xaml.cs">
+      <DependentUpon>menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\olap.xaml.cs">
+      <DependentUpon>olap.xaml</DependentUpon>
+    </Compile>
+    <Page Include="view\DimFact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\etl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\main.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -61,10 +98,32 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Constant.cs" />
+    <Compile Include="model\Base.cs" />
+    <Compile Include="model\DimensiFakta.cs" />
+    <Compile Include="model\EtlModel.cs" />
+    <Compile Include="model\MenuModel.cs" />
+    <Compile Include="model\paket.cs" />
+    <Compile Include="viewmodel\BaseBindable.cs" />
+    <Compile Include="viewmodel\DimFactViewModel.cs" />
+    <Compile Include="viewmodel\EtlViewModel.cs" />
+    <Compile Include="viewmodel\MenuViewModel.cs" />
+    <Compile Include="viewmodel\OlapViewModel.cs" />
+    <Compile Include="view\etl.xaml.cs">
+      <DependentUpon>etl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\main.xaml.cs">
+      <DependentUpon>main.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="view\menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\olap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -89,10 +148,14 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <EmbeddedResource Include="Resources\Package.dtsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
