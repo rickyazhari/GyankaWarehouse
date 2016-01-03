@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GyankaOLAP", "GyankaOLAP\GyankaOLAP.dwproj", "{D704CDD4-EC32-464F-9E7A-48144B9FBC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D704CDD4-EC32-464F-9E7A-48144B9FBC19}.Development|Default.ActiveCfg = Development
+		{D704CDD4-EC32-464F-9E7A-48144B9FBC19}.Development|Default.Build.0 = Development
+		{D704CDD4-EC32-464F-9E7A-48144B9FBC19}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

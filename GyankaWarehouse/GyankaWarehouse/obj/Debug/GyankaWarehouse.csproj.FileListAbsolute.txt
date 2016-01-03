@@ -15,7 +15,6 @@ E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\GyankaWa
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\etl.g.cs
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\GyankaWarehouse_MarkupCompile.lref
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\bin\Debug\FirstFloor.ModernUI.dll
-E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\bin\Debug\FirstFloor.ModernUI.xml
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\etl.baml
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\bin\Debug\Resources\Package.dtsx
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\menu.g.cs
@@ -24,3 +23,16 @@ E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\Dim
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\DimFact.g.cs
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\olap.baml
 E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\olap.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\GyankaWarehouse.exe.licenses
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapKebutuhan.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapKebutuhan.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapKeteranganPegawai.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapKeteranganPegawai.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapLamaranMasuk.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranEvent.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranOperasional.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapLamaranMasuk.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranEvent.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranOperasional.g.cs
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranTest.baml
+E:\kari\sakti\GyankaWarehouse\GyankaWarehouse\GyankaWarehouse\obj\Debug\view\OlapPengeluaranTest.g.cs

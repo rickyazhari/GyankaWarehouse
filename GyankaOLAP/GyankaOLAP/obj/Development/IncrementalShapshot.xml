@@ -1,0 +1,159 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>GyankaOLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>COWPTHCg3gRZZhcQZUuOHToZBUU=1/2/2016 2:50:01 PM1/2/2016 2:50:01 PM</TimeStamp>
+        <ID>
+          <String>Gyanka Pratama Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>+Aj3j04zgXZuMlIB7s6+3Pa+Hdk=1/2/2016 2:50:17 PM1/2/2016 2:50:16 PM</TimeStamp>
+        <ID>
+          <String>Gyanka Pratama Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eA2H9tLOXjP+/4icj2o5JZXWFrE=1/2/2016 2:51:26 PM1/2/2016 2:51:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Divisi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cCFGS/ErA9hTw2h1GKIBR7hgYHk=1/2/2016 2:52:07 PM1/2/2016 2:51:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Event</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0Tit/Yo7WSUgOWl5VMDVr34BAg0=1/2/2016 2:52:48 PM1/2/2016 2:52:38 PM</TimeStamp>
+        <ID>
+          <String>Dim Jenis Kelamin</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8JU0LoH/g3xyNz0XDLWEx5g8Syw=1/2/2016 2:53:21 PM1/2/2016 2:53:13 PM</TimeStamp>
+        <ID>
+          <String>Dim Operasional</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aSpX/116JpDl/SMGLY00g2v2ZTM=1/2/2016 2:53:58 PM1/2/2016 2:53:48 PM</TimeStamp>
+        <ID>
+          <String>Dim Pendidikan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>W4KpcPdEMWX+DO5NuPgl0z9b+W0=1/2/2016 2:55:02 PM1/2/2016 2:54:30 PM</TimeStamp>
+        <ID>
+          <String>Dim Test</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TAH5QOP9jJpYek5dcHrWZ7B0gSg=1/2/2016 2:55:56 PM1/2/2016 2:55:47 PM</TimeStamp>
+        <ID>
+          <String>Dim User</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>W+FxJrB4KdSsQ/wAZ5Wua5W6xao=1/2/2016 2:56:35 PM1/2/2016 2:56:26 PM</TimeStamp>
+        <ID>
+          <String>Dim Usia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s3nuEqs5o35ytIQg7fsYxRnAWUw=1/2/2016 3:00:16 PM1/2/2016 2:57:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Waktu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HwekRqZKR2zyisNQv6/qIgE+Om8=1/2/2016 3:01:51 PM1/2/2016 3:01:51 PMJDCSxhef5esP/BBLl2pxuoRe9GQ=1/2/2016 3:01:51 PM1/2/2016 3:01:51 PM</TimeStamp>
+        <ID>
+          <String>Fact Kebutuhan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CM9QciBAcb06hRZqY/DPGGa7DAY=1/2/2016 3:02:22 PM1/2/2016 3:02:22 PMxWY2Kt19YKaGWGyExMntTTyrH6c=1/2/2016 3:02:22 PM1/2/2016 3:02:22 PM</TimeStamp>
+        <ID>
+          <String>Fact Keterangan Pegawai</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>P8tSm7s7dC3zIpf+zXRz5zTNO2o=1/2/2016 3:02:54 PM1/2/2016 3:02:54 PMyt7zp2K/EGath7xC4UujqTjmRes=1/2/2016 3:02:54 PM1/2/2016 3:02:54 PM</TimeStamp>
+        <ID>
+          <String>Fact Lamaran Masuk</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>vfM8Nc4Pki2ywuJVmP5LodN0iHE=1/2/2016 3:03:28 PM1/2/2016 3:03:28 PM+LlA4Sf86UIAHMirmplS9ZzNAug=1/2/2016 3:03:28 PM1/2/2016 3:03:28 PM</TimeStamp>
+        <ID>
+          <String>Fact Pendapatan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jcO6obXzDzLZTyKgtjQw5A1ig5g=1/2/2016 3:04:08 PM1/2/2016 3:04:08 PMTib2gcLhjn1zmibjhsGzzOZ2DZc=1/2/2016 3:04:08 PM1/2/2016 3:04:08 PM</TimeStamp>
+        <ID>
+          <String>Fact Pengeluaran Event</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CF83t6cJm8boj2k4G3U8bOQOvhs=1/2/2016 3:04:46 PM1/2/2016 3:04:46 PMbkEd5P+Zc2jXfkub6qfGdM5MRyg=1/2/2016 3:04:46 PM1/2/2016 3:04:46 PM</TimeStamp>
+        <ID>
+          <String>Fact Pengeluaran Operasional</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xu7l+TXNjdaKUOLVgWW0/4dr6To=1/2/2016 3:05:10 PM1/2/2016 3:05:10 PMO1AKYSnNuVw4ulJfzrUZK+HvAAE=1/2/2016 3:05:10 PM1/2/2016 3:05:10 PM</TimeStamp>
+        <ID>
+          <String>Fact Pengeluaran Test</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>/5+NhQD89hPr2EwEESgIztGjTEc=1/2/2016 2:49:25 PM1/2/2016 2:49:25 PM</TimeStamp>
+      <ID>
+        <String>GyankaOLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-01-02T08:05:38.233333Z</LastDeployed>
+</DeploymentSnapshot>

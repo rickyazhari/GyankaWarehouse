@@ -1,0 +1,177 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bf704c14-5529-4c31-ad74-c44c7f809da3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Pengeluaran Test</ID>
+  <Name>Fact Pengeluaran Test</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="39eaeb9e-65b3-465c-9da0-f1fc2c4c3332">
+      <ID>Dim Test</ID>
+      <Name>Dim Test</Name>
+      <DimensionID>Dim Test</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d7f34fcb-951f-4ffa-8cbf-0c28d946c37e">
+          <AttributeID>No Test</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e836257b-f920-41f0-b820-991bfa5aa44e">
+          <AttributeID>Keterangan Test</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c44d5200-ec21-4fab-a434-3f7ee05b5c79">
+          <AttributeID>Key Test</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b8ab1578-61e1-4b7b-b94f-011b74c172f1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="54236a43-3045-43d0-8347-531dd2d2acf8">
+      <ID>Dim Waktu</ID>
+      <Name>Dim Waktu</Name>
+      <DimensionID>Dim Waktu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cb27dab2-2871-4457-9ae9-e328aeb9cff7">
+          <AttributeID>No Waktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8ed7c2c-7c63-4655-a39c-f42491e73b0c">
+          <AttributeID>Fullwaktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6db4e819-ca92-4da1-aca6-0bc3bb50ccb1">
+          <AttributeID>Tanggal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6121e590-cffc-4246-a239-06f54648fc7c">
+          <AttributeID>Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b717018a-f849-47b2-92fe-c8a54e1125e5">
+          <AttributeID>Nama Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="094ba7c7-6dca-48e6-b615-c60b9c9ef31b">
+          <AttributeID>Tahun</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d7ce4234-d9c0-4536-b07f-6f1b07496441">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="57d9db8d-61aa-4338-97cb-0807332c13f3">
+      <ID>Fact Pengeluaran Test</ID>
+      <Name>Fact Pengeluaran Test</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="db61f5e3-3572-441d-a047-ca7a655369a0">
+          <ID>Pengeluaran</ID>
+          <Name>Pengeluaran</Name>
+          <Source dwd:design-time-name="bdd5f8be-db75-4379-bdce-e58e4c9dc211">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="12f50620-1e16-4e8f-bc5c-e6348a28a756">
+              <TableID>dbo_fact_pengeluaran_test</TableID>
+              <ColumnID>pengeluaran</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5fdafe84-5637-46d7-8739-84cb0e627515">
+          <ID>Fact Pengeluaran Test Count</ID>
+          <Name>Fact Pengeluaran Test Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6cb243e1-325d-43b4-955d-f9e28dc4db2b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e3d0c63d-a9a5-4656-bebd-dbbae181f4c3">
+              <TableID>dbo_fact_pengeluaran_test</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d23ea2ed-cff5-4868-9006-d24bff12d027">
+          <CubeDimensionID>Dim Test</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e24c8934-70ea-4a4d-a149-4d70feb2c95f">
+              <AttributeID>No Test</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4b2a1872-550f-4a73-9b2e-a15b91f54080">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47b5db23-3a6a-4e79-a042-ccfc22e8193c">
+                    <TableID>dbo_fact_pengeluaran_test</TableID>
+                    <ColumnID>test</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b2204549-d0ea-4461-ac3a-613d6fe43e9f">
+          <CubeDimensionID>Dim Waktu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e1ee29b5-bcba-439d-9f26-92cda73e2bfa">
+              <AttributeID>No Waktu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0c36119e-c28f-485c-9a61-1a9161eb1863">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6afc0890-faf9-4858-9e1c-c5d8db0c249c">
+                    <TableID>dbo_fact_pengeluaran_test</TableID>
+                    <ColumnID>waktu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6cfacd63-32cc-4ce7-b352-3340a196d923">
+    <DataSourceViewID>Gyanka Pratama Warehouse</DataSourceViewID>
+  </Source>
+</Cube>

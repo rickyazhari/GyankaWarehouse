@@ -1,0 +1,177 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="686a903c-b1b6-44f0-995b-668fb275792a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Pengeluaran Event</ID>
+  <Name>Fact Pengeluaran Event</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="74c3ab2f-ea69-44fc-a821-a555301d2b97">
+      <ID>Dim Event</ID>
+      <Name>Dim Event</Name>
+      <DimensionID>Dim Event</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a853f2cb-d80f-4c96-877b-cadcad3877f6">
+          <AttributeID>No Event</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32501154-48ec-4e71-8e46-ca16c6f6c758">
+          <AttributeID>Nama Event</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d042b4b-95ab-42d5-b199-09df16a5561b">
+          <AttributeID>Key Event</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="17491c21-8124-4a22-9e7a-0f0db8138589">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="60508830-5fed-4f82-92b3-b8febe66eab2">
+      <ID>Dim Waktu</ID>
+      <Name>Dim Waktu</Name>
+      <DimensionID>Dim Waktu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e74aab03-db78-4d2c-bfe8-1cdfaee1ef83">
+          <AttributeID>No Waktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08cf8e6e-b5f8-4483-ae9b-07ffc81a2a14">
+          <AttributeID>Fullwaktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae546458-47d4-4857-924c-5ba14a897607">
+          <AttributeID>Tanggal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96a68e8f-a751-41cc-9fdb-571de343b132">
+          <AttributeID>Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="98fa9748-633c-4053-b0e6-2a8075340e63">
+          <AttributeID>Nama Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c0f9a9a-3c6a-49a9-b604-4f3e0f1ca651">
+          <AttributeID>Tahun</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3d2bfb9a-7ce8-407f-af23-32ffb895b186">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="837b8a0d-073b-45e4-88c7-fdebd3c98c6e">
+      <ID>Fact Pengeluaran Event</ID>
+      <Name>Fact Pengeluaran Event</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="11fdd0b6-6dd7-42b5-b06a-616573bc81ab">
+          <ID>Pengeluaran</ID>
+          <Name>Pengeluaran</Name>
+          <Source dwd:design-time-name="d15af354-8982-4eb3-a077-a23893d9b410">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa56b0a2-576e-4764-a5e5-cc22f9e5d22a">
+              <TableID>dbo_fact_pengeluaran_event</TableID>
+              <ColumnID>pengeluaran</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bbaf0194-73ef-4da6-86ce-60960216b9ae">
+          <ID>Fact Pengeluaran Event Count</ID>
+          <Name>Fact Pengeluaran Event Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c766ca99-490a-48bb-8cf0-45087ef8af81">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="0a6ae217-25de-4c8a-982e-820ad91e4fd9">
+              <TableID>dbo_fact_pengeluaran_event</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="51ce1b42-2a36-47ed-b26b-ae852d70a061">
+          <CubeDimensionID>Dim Event</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7960bb9d-8e82-4113-bf82-8289c61117ce">
+              <AttributeID>No Event</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="301281c8-8447-4657-9483-b7585d471081">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8b96c1d8-f1c2-4c43-aac4-cea9d5289af5">
+                    <TableID>dbo_fact_pengeluaran_event</TableID>
+                    <ColumnID>event</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1ef3b4e9-482d-41d0-88c2-4be45656835d">
+          <CubeDimensionID>Dim Waktu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="aeaeb16d-4d57-466c-9efc-af272fb1d159">
+              <AttributeID>No Waktu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4744fb1-050d-4262-bb4e-8eef8565aef4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="20b4f592-f849-4edd-9b8e-5463061a9e54">
+                    <TableID>dbo_fact_pengeluaran_event</TableID>
+                    <ColumnID>waktu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="4f3af952-50cf-40f5-aba5-a1ec3aaa26c9">
+    <DataSourceViewID>Gyanka Pratama Warehouse</DataSourceViewID>
+  </Source>
+</Cube>

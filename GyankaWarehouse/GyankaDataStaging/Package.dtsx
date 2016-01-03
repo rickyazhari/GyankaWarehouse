@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{9A424B01-AB4C-414F-9061-CA655B97443D}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{BE3ACB1A-BB83-4B1E-8FAD-99ACD6210435}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -6948,299 +6948,299 @@
               startId="Package\Bangun Dimensi\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\Bangun Dimensi.Paths[Merge Output 114]"
-              endId="Package\Bangun Dimensi\Merge 7.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 3.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 113]"
-              endId="Package\Bangun Dimensi\Merge 8.Inputs[Merge Input 1]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 4.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 111]"
-              endId="Package\Bangun Dimensi\Merge 6.Inputs[Merge Input 1]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 110]"
-              endId="Package\Bangun Dimensi\Merge 12.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 11.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 19]"
-              endId="Package\Bangun Dimensi\Merge 7.Inputs[Merge Input 1]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 2.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 18]"
-              endId="Package\Bangun Dimensi\Merge 6.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 1.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 17]"
-              endId="Package\Bangun Dimensi\Merge 10.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 8.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 112]"
-              endId="Package\Bangun Dimensi\Sort 12.Inputs[Sort Input]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 10.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 15]"
-              endId="Package\Bangun Dimensi\Merge 10.Inputs[Merge Input 1]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 9.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 14]"
-              endId="Package\Bangun Dimensi\Merge 9.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 7.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 13]"
-              endId="Package\Bangun Dimensi\Merge 9.Inputs[Merge Input 1]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 6.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 12]"
-              endId="Package\Bangun Dimensi\Merge 8.Inputs[Merge Input 2]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 5.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 11]"
-              endId="Package\Bangun Dimensi\Sort 16.Inputs[Sort Input]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 12.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 1]"
-              endId="Package\Bangun Dimensi\Sort 19.Inputs[Sort Input]"
-              name="Merge Output 1"
-              startId="Package\Bangun Dimensi\Merge 13.Outputs[Merge Output 1]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Merge Output 16]"
               endId="Package\Bangun Dimensi\Sort 20.Inputs[Sort Input]"
               name="Merge Output 1"
               startId="Package\Bangun Dimensi\Merge 14.Outputs[Merge Output 1]" />
             <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 113]"
+              endId="Package\Bangun Dimensi\Sort 19.Inputs[Sort Input]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 13.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 111]"
+              endId="Package\Bangun Dimensi\Merge 8.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 5.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 110]"
+              endId="Package\Bangun Dimensi\Merge 9.Inputs[Merge Input 1]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 6.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 19]"
+              endId="Package\Bangun Dimensi\Merge 9.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 7.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 18]"
+              endId="Package\Bangun Dimensi\Merge 10.Inputs[Merge Input 1]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 9.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 17]"
+              endId="Package\Bangun Dimensi\Sort 12.Inputs[Sort Input]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 10.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 112]"
+              endId="Package\Bangun Dimensi\Sort 16.Inputs[Sort Input]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 12.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 15]"
+              endId="Package\Bangun Dimensi\Merge 6.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 1.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 14]"
+              endId="Package\Bangun Dimensi\Merge 7.Inputs[Merge Input 1]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 2.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 13]"
+              endId="Package\Bangun Dimensi\Merge 12.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 11.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 12]"
+              endId="Package\Bangun Dimensi\Merge 6.Inputs[Merge Input 1]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 11]"
+              endId="Package\Bangun Dimensi\Merge 8.Inputs[Merge Input 1]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 4.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 1]"
+              endId="Package\Bangun Dimensi\Merge 7.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 3.Outputs[Merge Output 1]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Merge Output 16]"
+              endId="Package\Bangun Dimensi\Merge 10.Inputs[Merge Input 2]"
+              name="Merge Output 1"
+              startId="Package\Bangun Dimensi\Merge 8.Outputs[Merge Output 1]" />
+            <path
               refId="Package\Bangun Dimensi.Paths[OLE DB Source Output15]"
-              endId="Package\Bangun Dimensi\Sort 10.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\gaji public area.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output16]"
-              endId="Package\Bangun Dimensi\Sort 8.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\gaji.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output17]"
-              endId="Package\Bangun Dimensi\Sort 17.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\pegawai manufaktur.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output18]"
-              endId="Package\Bangun Dimensi\dim operasional.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\operasional.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output22]"
-              endId="Package\Bangun Dimensi\Sort 4.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\Berkas pelamar.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output20]"
-              endId="Package\Bangun Dimensi\Sort 18.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\pegawai public area.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output21]"
-              endId="Package\Bangun Dimensi\Sort 5.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\pengeluaran event.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output23]"
-              endId="Package\Bangun Dimensi\Sort 11.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\test pelamar.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output13]"
-              endId="Package\Bangun Dimensi\Sort 7.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\pengeluaran test.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output19]"
-              endId="Package\Bangun Dimensi\Sort 6.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\pengeluaran operasional.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output12]"
-              endId="Package\Bangun Dimensi\Sort 3.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\fee_user_public_area.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output14]"
-              endId="Package\Bangun Dimensi\OLE DB Destination.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\divisi.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output10]"
-              endId="Package\Bangun Dimensi\Sort 1.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\permintaan user.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output11]"
-              endId="Package\Bangun Dimensi\dim_kelamin.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\kelamin.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output]"
-              endId="Package\Bangun Dimensi\dim user.Inputs[OLE DB Destination Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\user.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output2]"
               endId="Package\Bangun Dimensi\dim_test.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\test.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output3]"
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output16]"
               endId="Package\Bangun Dimensi\dim pendidikan.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\pendidikan.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output4]"
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output17]"
               endId="Package\Bangun Dimensi\Sort 2.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\fee_user_manufaktur.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output1]"
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output18]"
               endId="Package\Bangun Dimensi\dim event.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\event.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output6]"
-              endId="Package\Bangun Dimensi\Sort 14.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\permintaan user manufaktur.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output7]"
-              endId="Package\Bangun Dimensi\Sort 15.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\usia pelamar.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output8]"
-              endId="Package\Bangun Dimensi\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\Bangun Dimensi\detail_pegawai.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output9]"
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output22]"
               endId="Package\Bangun Dimensi\Sort 9.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\gaji manufaktur.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output5]"
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output20]"
+              endId="Package\Bangun Dimensi\Sort 15.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\usia pelamar.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output21]"
+              endId="Package\Bangun Dimensi\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\detail_pegawai.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output23]"
               endId="Package\Bangun Dimensi\Sort 13.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Bangun Dimensi\permintaan user pubic.Outputs[OLE DB Source Output]" />
             <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output13]"
+              endId="Package\Bangun Dimensi\dim_kelamin.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\kelamin.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output19]"
+              endId="Package\Bangun Dimensi\Sort 14.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\permintaan user manufaktur.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output12]"
+              endId="Package\Bangun Dimensi\Sort 1.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\permintaan user.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output14]"
+              endId="Package\Bangun Dimensi\dim user.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\user.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output10]"
+              endId="Package\Bangun Dimensi\Sort 3.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\fee_user_public_area.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output11]"
+              endId="Package\Bangun Dimensi\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\divisi.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output]"
+              endId="Package\Bangun Dimensi\Sort 10.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\gaji public area.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output2]"
+              endId="Package\Bangun Dimensi\Sort 17.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\pegawai manufaktur.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output3]"
+              endId="Package\Bangun Dimensi\dim operasional.Inputs[OLE DB Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\operasional.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output4]"
+              endId="Package\Bangun Dimensi\Sort 4.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\Berkas pelamar.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output1]"
+              endId="Package\Bangun Dimensi\Sort 8.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\gaji.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output6]"
+              endId="Package\Bangun Dimensi\Sort 5.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\pengeluaran event.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output7]"
+              endId="Package\Bangun Dimensi\Sort 11.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\test pelamar.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output8]"
+              endId="Package\Bangun Dimensi\Sort 7.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\pengeluaran test.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output9]"
+              endId="Package\Bangun Dimensi\Sort 6.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\pengeluaran operasional.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[OLE DB Source Output5]"
+              endId="Package\Bangun Dimensi\Sort 18.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Bangun Dimensi\pegawai public area.Outputs[OLE DB Source Output]" />
+            <path
               refId="Package\Bangun Dimensi.Paths[Sort Output11]"
-              endId="Package\Bangun Dimensi\Merge.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output18]"
-              endId="Package\Bangun Dimensi\Merge 14.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 12.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output17]"
-              endId="Package\Bangun Dimensi\Merge 13.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 17.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output16]"
-              endId="Package\Bangun Dimensi\Merge 2.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 4.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output15]"
-              endId="Package\Bangun Dimensi\Merge 5.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 11.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output14]"
-              endId="Package\Bangun Dimensi\Derived Column.Inputs[Derived Column Input]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 20.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output13]"
-              endId="Package\Bangun Dimensi\Merge 5.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 10.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output12]"
-              endId="Package\Bangun Dimensi\Merge 13.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 18.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output10]"
-              endId="Package\Bangun Dimensi\Merge 11.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 14.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output4]"
-              endId="Package\Bangun Dimensi\Merge 1.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output8]"
-              endId="Package\Bangun Dimensi\Merge 12.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 15.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output7]"
               endId="Package\Bangun Dimensi\Merge 3.Inputs[Merge Input 1]"
               name="Sort Output"
               startId="Package\Bangun Dimensi\Sort 6.Outputs[Sort Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output6]"
-              endId="Package\Bangun Dimensi\Merge 4.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 8.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output5]"
-              endId="Package\Bangun Dimensi\Merge.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output3]"
-              endId="Package\Bangun Dimensi\Merge 11.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 13.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output2]"
-              endId="Package\Bangun Dimensi\Dim Usia.Inputs[OLE DB Destination Input]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 16.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output1]"
-              endId="Package\Bangun Dimensi\Merge 3.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 7.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output]"
-              endId="Package\Bangun Dimensi\Merge 2.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\Bangun Dimensi\Sort 5.Outputs[Sort Output]" />
-            <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output19]"
+              refId="Package\Bangun Dimensi.Paths[Sort Output18]"
               endId="Package\Bangun Dimensi\Merge 4.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\Bangun Dimensi\Sort 9.Outputs[Sort Output]" />
             <path
-              refId="Package\Bangun Dimensi.Paths[Sort Output9]"
+              refId="Package\Bangun Dimensi.Paths[Sort Output17]"
+              endId="Package\Bangun Dimensi\Merge 2.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 5.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output16]"
+              endId="Package\Bangun Dimensi\Merge 3.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 7.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output15]"
+              endId="Package\Bangun Dimensi\Dim Usia.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 16.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output14]"
+              endId="Package\Bangun Dimensi\Merge 11.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 13.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output13]"
+              endId="Package\Bangun Dimensi\Merge.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output12]"
+              endId="Package\Bangun Dimensi\Merge 4.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 8.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output10]"
+              endId="Package\Bangun Dimensi\Merge 12.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 15.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output4]"
+              endId="Package\Bangun Dimensi\Merge 5.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 11.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output8]"
+              endId="Package\Bangun Dimensi\Merge 11.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 14.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output7]"
+              endId="Package\Bangun Dimensi\Merge 13.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 18.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output6]"
+              endId="Package\Bangun Dimensi\Merge 5.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 10.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output5]"
+              endId="Package\Bangun Dimensi\Derived Column.Inputs[Derived Column Input]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 20.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output3]"
+              endId="Package\Bangun Dimensi\Merge 2.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 4.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output2]"
+              endId="Package\Bangun Dimensi\Merge 13.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 17.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output1]"
+              endId="Package\Bangun Dimensi\Merge 14.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 12.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output]"
+              endId="Package\Bangun Dimensi\Merge.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output19]"
               endId="Package\Bangun Dimensi\Merge 1.Inputs[Merge Input 2]"
               name="Sort Output"
               startId="Package\Bangun Dimensi\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\Bangun Dimensi.Paths[Sort Output9]"
+              endId="Package\Bangun Dimensi\Merge 1.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\Bangun Dimensi\Sort 2.Outputs[Sort Output]" />
             <path
               refId="Package\Bangun Dimensi.Paths[Sort Output20]"
               endId="Package\Bangun Dimensi\Merge 14.Inputs[Merge Input 2]"
@@ -13246,39 +13246,39 @@ where [refTable].[usia_pegawai] = ?</property>
               startId="Package\fact kebutuhan user\Lookup.Outputs[Lookup No Match Output]" />
             <path
               refId="Package\fact kebutuhan user.Paths[Merge Join Output6]"
-              endId="Package\fact kebutuhan user\Sort 11.Inputs[Sort Input]"
+              endId="Package\fact kebutuhan user\Sort 12.Inputs[Sort Input]"
               name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 4.Outputs[Merge Join Output]" />
+              startId="Package\fact kebutuhan user\Merge Join 5.Outputs[Merge Join Output]" />
             <path
               refId="Package\fact kebutuhan user.Paths[Merge Join Output5]"
-              endId="Package\fact kebutuhan user\Sort 7.Inputs[Sort Input]"
-              name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 1.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Merge Join Output4]"
-              endId="Package\fact kebutuhan user\Merge.Inputs[Merge Input 1]"
-              name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 6.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Merge Join Output2]"
-              endId="Package\fact kebutuhan user\Merge.Inputs[Merge Input 2]"
-              name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 3.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Merge Join Output1]"
-              endId="Package\fact kebutuhan user\Sort 8.Inputs[Sort Input]"
-              name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 2.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Merge Join Output]"
               endId="Package\fact kebutuhan user\Sort 3.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\fact kebutuhan user\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\fact kebutuhan user.Paths[Merge Join Output3]"
-              endId="Package\fact kebutuhan user\Sort 12.Inputs[Sort Input]"
+              refId="Package\fact kebutuhan user.Paths[Merge Join Output4]"
+              endId="Package\fact kebutuhan user\Sort 8.Inputs[Sort Input]"
               name="Merge Join Output"
-              startId="Package\fact kebutuhan user\Merge Join 5.Outputs[Merge Join Output]" />
+              startId="Package\fact kebutuhan user\Merge Join 2.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Merge Join Output2]"
+              endId="Package\fact kebutuhan user\Merge.Inputs[Merge Input 1]"
+              name="Merge Join Output"
+              startId="Package\fact kebutuhan user\Merge Join 6.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Merge Join Output1]"
+              endId="Package\fact kebutuhan user\Sort 7.Inputs[Sort Input]"
+              name="Merge Join Output"
+              startId="Package\fact kebutuhan user\Merge Join 1.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Merge Join Output]"
+              endId="Package\fact kebutuhan user\Sort 11.Inputs[Sort Input]"
+              name="Merge Join Output"
+              startId="Package\fact kebutuhan user\Merge Join 4.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Merge Join Output3]"
+              endId="Package\fact kebutuhan user\Merge.Inputs[Merge Input 2]"
+              name="Merge Join Output"
+              startId="Package\fact kebutuhan user\Merge Join 3.Outputs[Merge Join Output]" />
             <path
               refId="Package\fact kebutuhan user.Paths[Merge Output 1]"
               endId="Package\fact kebutuhan user\lookup dim waktu.Inputs[Lookup Input]"
@@ -13286,104 +13286,104 @@ where [refTable].[usia_pegawai] = ?</property>
               startId="Package\fact kebutuhan user\Merge.Outputs[Merge Output 1]" />
             <path
               refId="Package\fact kebutuhan user.Paths[OLE DB Source Output5]"
-              endId="Package\fact kebutuhan user\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\permintaan user.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output7]"
-              endId="Package\fact kebutuhan user\Sort 9.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\pendidikan2.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output6]"
-              endId="Package\fact kebutuhan user\Sort 6.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\kelamin.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output4]"
-              endId="Package\fact kebutuhan user\Sort 5.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\pendidikan.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output3]"
-              endId="Package\fact kebutuhan user\Sort 4.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\detail permintaan public area.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output2]"
               endId="Package\fact kebutuhan user\Sort 2.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\fact kebutuhan user\detail permintaan manufaktur.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output1]"
-              endId="Package\fact kebutuhan user\Sort 1.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact kebutuhan user\divisi.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output]"
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output7]"
               endId="Package\fact kebutuhan user\Sort 10.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\fact kebutuhan user\kelamin2.Outputs[OLE DB Source Output]" />
             <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output6]"
+              endId="Package\fact kebutuhan user\Sort 1.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\divisi.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output4]"
+              endId="Package\fact kebutuhan user\Sort 4.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\detail permintaan public area.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output3]"
+              endId="Package\fact kebutuhan user\Sort 5.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\pendidikan.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output2]"
+              endId="Package\fact kebutuhan user\Sort 6.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\kelamin.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output1]"
+              endId="Package\fact kebutuhan user\Sort 9.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\pendidikan2.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[OLE DB Source Output]"
+              endId="Package\fact kebutuhan user\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact kebutuhan user\permintaan user.Outputs[OLE DB Source Output]" />
+            <path
               refId="Package\fact kebutuhan user.Paths[Sort Output11]"
-              endId="Package\fact kebutuhan user\Merge Join 6.Inputs[Merge Join Right Input]"
+              endId="Package\fact kebutuhan user\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 12.Outputs[Sort Output]" />
+              startId="Package\fact kebutuhan user\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\fact kebutuhan user.Paths[Sort Output10]"
-              endId="Package\fact kebutuhan user\Merge Join 5.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 10.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output9]"
-              endId="Package\fact kebutuhan user\Merge Join 2.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 7.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output8]"
-              endId="Package\fact kebutuhan user\Merge Join 3.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 8.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output7]"
-              endId="Package\fact kebutuhan user\Merge Join 2.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 6.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output6]"
-              endId="Package\fact kebutuhan user\Merge Join 4.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 9.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output5]"
-              endId="Package\fact kebutuhan user\Merge Join 4.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 4.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output4]"
-              endId="Package\fact kebutuhan user\Merge Join 1.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 5.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output3]"
-              endId="Package\fact kebutuhan user\Merge Join 1.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output2]"
-              endId="Package\fact kebutuhan user\Lookup.Inputs[Lookup Input]"
-              name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort 3.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output1]"
               endId="Package\fact kebutuhan user\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\fact kebutuhan user\Sort 1.Outputs[Sort Output]" />
             <path
-              refId="Package\fact kebutuhan user.Paths[Sort Output]"
-              endId="Package\fact kebutuhan user\Merge Join.Inputs[Merge Join Left Input]"
+              refId="Package\fact kebutuhan user.Paths[Sort Output9]"
+              endId="Package\fact kebutuhan user\Lookup.Inputs[Lookup Input]"
               name="Sort Output"
-              startId="Package\fact kebutuhan user\Sort.Outputs[Sort Output]" />
+              startId="Package\fact kebutuhan user\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output8]"
+              endId="Package\fact kebutuhan user\Merge Join 1.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 2.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output7]"
+              endId="Package\fact kebutuhan user\Merge Join 1.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 5.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output6]"
+              endId="Package\fact kebutuhan user\Merge Join 4.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 4.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output5]"
+              endId="Package\fact kebutuhan user\Merge Join 4.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 9.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output4]"
+              endId="Package\fact kebutuhan user\Merge Join 2.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 6.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output3]"
+              endId="Package\fact kebutuhan user\Merge Join 3.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 8.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output2]"
+              endId="Package\fact kebutuhan user\Merge Join 2.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 7.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output1]"
+              endId="Package\fact kebutuhan user\Merge Join 5.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 10.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact kebutuhan user.Paths[Sort Output]"
+              endId="Package\fact kebutuhan user\Merge Join 6.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact kebutuhan user\Sort 12.Outputs[Sort Output]" />
             <path
               refId="Package\fact kebutuhan user.Paths[Sort Output12]"
               endId="Package\fact kebutuhan user\Merge Join 5.Inputs[Merge Join Left Input]"
@@ -14349,7 +14349,7 @@ where [refTable].[key_divisi] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\fact keterangan karyawan\407:invalid};</property>
+                  name="ParameterMap">#{Package\fact keterangan karyawan\1177:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -14507,7 +14507,7 @@ where [refTable].[key_kelamin] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\fact keterangan karyawan\413:invalid};</property>
+                  name="ParameterMap">#{Package\fact keterangan karyawan\1178:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -14665,7 +14665,7 @@ where [refTable].[key_pendidikan] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\fact keterangan karyawan\409:invalid};</property>
+                  name="ParameterMap">#{Package\fact keterangan karyawan\1179:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -14823,7 +14823,7 @@ where [refTable].[usia_pegawai] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\fact keterangan karyawan\411:invalid};</property>
+                  name="ParameterMap">#{Package\fact keterangan karyawan\1180:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -14981,7 +14981,7 @@ where [refTable].[fullwaktu] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\fact keterangan karyawan\403:invalid};</property>
+                  name="ParameterMap">#{Package\fact keterangan karyawan\1181:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -18423,7 +18423,17 @@ where [refTable].[fullwaktu] = ?</property>
               name="Merge Output 1"
               startId="Package\fact keterangan karyawan\Merge.Outputs[Merge Output 1]" />
             <path
+              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output4]"
+              endId="Package\fact keterangan karyawan\Sort 2.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact keterangan karyawan\pelamar.Outputs[OLE DB Source Output]" />
+            <path
               refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output3]"
+              endId="Package\fact keterangan karyawan\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\fact keterangan karyawan\karyawan manufaktur.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output]"
               endId="Package\fact keterangan karyawan\Sort 1.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\fact keterangan karyawan\karyawan public area.Outputs[OLE DB Source Output]" />
@@ -18433,52 +18443,42 @@ where [refTable].[fullwaktu] = ?</property>
               name="OLE DB Source Output"
               startId="Package\fact keterangan karyawan\detail pelamar.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output4]"
+              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output2]"
               endId="Package\fact keterangan karyawan\Sort 4.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\fact keterangan karyawan\test pelamar.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output]"
-              endId="Package\fact keterangan karyawan\Sort.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact keterangan karyawan\karyawan manufaktur.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[OLE DB Source Output2]"
-              endId="Package\fact keterangan karyawan\Sort 2.Inputs[Sort Input]"
-              name="OLE DB Source Output"
-              startId="Package\fact keterangan karyawan\pelamar.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[Sort Output1]"
-              endId="Package\fact keterangan karyawan\Merge.Inputs[Merge Input 2]"
-              name="Sort Output"
-              startId="Package\fact keterangan karyawan\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[Sort Output2]"
-              endId="Package\fact keterangan karyawan\Merge.Inputs[Merge Input 1]"
-              name="Sort Output"
-              startId="Package\fact keterangan karyawan\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[Sort Output3]"
-              endId="Package\fact keterangan karyawan\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact keterangan karyawan\Sort 3.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[Sort Output4]"
-              endId="Package\fact keterangan karyawan\fact keterangan karyawan.Inputs[OLE DB Destination Input]"
-              name="Sort Output"
-              startId="Package\fact keterangan karyawan\Sort 6.Outputs[Sort Output]" />
-            <path
               refId="Package\fact keterangan karyawan.Paths[Sort Output5]"
-              endId="Package\fact keterangan karyawan\Merge Join 1.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\fact keterangan karyawan\Sort 4.Outputs[Sort Output]" />
-            <path
-              refId="Package\fact keterangan karyawan.Paths[Sort Output6]"
               endId="Package\fact keterangan karyawan\Merge Join 2.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\fact keterangan karyawan\Sort 5.Outputs[Sort Output]" />
             <path
               refId="Package\fact keterangan karyawan.Paths[Sort Output]"
+              endId="Package\fact keterangan karyawan\Merge.Inputs[Merge Input 2]"
+              name="Sort Output"
+              startId="Package\fact keterangan karyawan\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[Sort Output1]"
+              endId="Package\fact keterangan karyawan\Merge.Inputs[Merge Input 1]"
+              name="Sort Output"
+              startId="Package\fact keterangan karyawan\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[Sort Output2]"
+              endId="Package\fact keterangan karyawan\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact keterangan karyawan\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[Sort Output3]"
+              endId="Package\fact keterangan karyawan\fact keterangan karyawan.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\fact keterangan karyawan\Sort 6.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[Sort Output4]"
+              endId="Package\fact keterangan karyawan\Merge Join 1.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\fact keterangan karyawan\Sort 4.Outputs[Sort Output]" />
+            <path
+              refId="Package\fact keterangan karyawan.Paths[Sort Output6]"
               endId="Package\fact keterangan karyawan\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\fact keterangan karyawan\Sort 2.Outputs[Sort Output]" />
@@ -27582,7 +27582,7 @@ where [refTable].[key_test] = ?</property>
           Id="Package\Bangun Dimensi\pegawai manufaktur"
           TopLeft="650,747" />
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output20]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output5]"
           TopLeft="952.5,738">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27604,7 +27604,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output19]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output9]"
           TopLeft="222,425">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27626,7 +27626,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output18]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output3]"
           TopLeft="2400,437">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27648,7 +27648,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output17]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output2]"
           TopLeft="740.5,747">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27670,7 +27670,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output16]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output1]"
           TopLeft="127,568">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27692,7 +27692,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output15]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output]"
           TopLeft="188,702">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27714,7 +27714,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output14]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output11]"
           TopLeft="1962.75,658">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27736,7 +27736,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output13]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output8]"
           TopLeft="189,498">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27758,7 +27758,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output12]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output10]"
           TopLeft="202,235.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27780,7 +27780,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output11]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output13]"
           TopLeft="1355.75,584">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27802,7 +27802,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output10]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output12]"
           TopLeft="182,101.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27824,7 +27824,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output9]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output22]"
           TopLeft="186,638.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27846,7 +27846,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output8]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output21]"
           TopLeft="171,37.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27868,7 +27868,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output7]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output20]"
           TopLeft="1894,184">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27890,7 +27890,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output6]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output19]"
           TopLeft="1463,184">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27912,7 +27912,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output5]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output23]"
           TopLeft="1693.75,185">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27934,7 +27934,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output4]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output17]"
           TopLeft="205,167.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27956,7 +27956,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output3]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output16]"
           TopLeft="2420.25,193">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27978,7 +27978,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output2]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output15]"
           TopLeft="2179.25,441">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28000,7 +28000,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output1]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output18]"
           TopLeft="1648.25,675">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28022,7 +28022,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output14]"
           TopLeft="2211.75,190">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28044,7 +28044,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 114]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 1]"
           TopLeft="449.666666666667,447">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28078,7 +28078,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 113]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 11]"
           TopLeft="496,607">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28112,7 +28112,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 112]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 17]"
           TopLeft="818,410.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28134,7 +28134,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 111]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 12]"
           TopLeft="423,95">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28168,7 +28168,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 110]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 13]"
           TopLeft="1610.5,344">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28202,7 +28202,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 19]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 14]"
           TopLeft="496,334">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28230,7 +28230,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 18]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 15]"
           TopLeft="444.666666666667,184">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28264,7 +28264,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 17]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 16]"
           TopLeft="581.5,639">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28298,7 +28298,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 16]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 114]"
           TopLeft="1048.5,503">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28332,7 +28332,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 15]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 18]"
           TopLeft="699.666666666667,280">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28366,7 +28366,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 14]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 19]"
           TopLeft="588.666666666667,371">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28400,7 +28400,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 13]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 110]"
           TopLeft="574.666666666667,160">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28434,7 +28434,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 12]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 111]"
           TopLeft="421.5,712">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28468,7 +28468,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 11]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 112]"
           TopLeft="1757.5,416">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28490,7 +28490,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Merge Output 1]"
+          Id="Package\Bangun Dimensi.Paths[Merge Output 113]"
           TopLeft="843.5,586">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28568,7 +28568,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output19]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output18]"
           TopLeft="332,637">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28602,7 +28602,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output18]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output1]"
           TopLeft="913.5,430">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28636,7 +28636,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output17]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output2]"
           TopLeft="743.5,667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28670,7 +28670,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output16]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output3]"
           TopLeft="341,302">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28704,7 +28704,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output15]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output4]"
           TopLeft="323,764">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28738,7 +28738,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output14]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output5]"
           TopLeft="1153.75,582">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28760,7 +28760,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output13]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output6]"
           TopLeft="329,703">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28794,7 +28794,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output12]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output7]"
           TopLeft="952.5,662">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28828,7 +28828,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output11]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output]"
           TopLeft="340,100">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28862,7 +28862,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output10]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output8]"
           TopLeft="1462.5,258">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28896,7 +28896,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output9]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output19]"
           TopLeft="341,237">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28930,7 +28930,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output8]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output10]"
           TopLeft="1890.5,257">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28964,7 +28964,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output7]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output11]"
           TopLeft="352,424">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28992,7 +28992,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output6]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output12]"
           TopLeft="339,566">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29026,7 +29026,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output5]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output13]"
           TopLeft="326,36">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29060,7 +29060,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output4]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output9]"
           TopLeft="346,161.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29088,7 +29088,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output3]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output14]"
           TopLeft="1693.5,259">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29122,7 +29122,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output2]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output15]"
           TopLeft="1760,490">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29144,7 +29144,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output1]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output16]"
           TopLeft="297.5,476">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29172,7 +29172,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[Sort Output]"
+          Id="Package\Bangun Dimensi.Paths[Sort Output17]"
           TopLeft="346,365">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29206,7 +29206,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output23]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output7]"
           TopLeft="177,764">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29228,7 +29228,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output22]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output4]"
           TopLeft="178,301">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29250,7 +29250,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output21]"
+          Id="Package\Bangun Dimensi.Paths[OLE DB Source Output6]"
           TopLeft="196,364">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29274,6 +29274,19 @@ where [refTable].[key_test] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\operasional">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\gaji public area">
     <Properties>
@@ -29314,19 +29327,6 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\Dim waktu">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\gaji manufaktur">
     <Properties>
       <Property>
@@ -29340,7 +29340,33 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\test pelamar">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\Dim Usia">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\dim operasional">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29418,176 +29444,7 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\operasional">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\usia pelamar">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\dim pendidikan">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\fee_user_manufaktur">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\pengeluaran operasional">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\dim operasional">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\pengeluaran event">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\event">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\user">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\dim event">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\test pelamar">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\divisi">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\pendidikan">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\test">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29613,7 +29470,111 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\dim_test">
+    design-time-name="Package\Bangun Dimensi\fee_user_manufaktur">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\pengeluaran event">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\usia pelamar">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\event">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\pendidikan">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\dim event">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\pengeluaran operasional">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\user">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\divisi">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29639,7 +29600,33 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\kelamin">
+    design-time-name="Package\Bangun Dimensi\test">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\Dim waktu">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\dim_test">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29653,6 +29640,32 @@ where [refTable].[key_test] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\permintaan user pubic">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\pegawai manufaktur">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Bangun Dimensi\kelamin">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29679,19 +29692,6 @@ where [refTable].[key_test] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Bangun Dimensi\Berkas pelamar">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Bangun Dimensi\pegawai manufaktur">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -29857,7 +29857,7 @@ where [refTable].[key_test] = ?</property>
           Id="Package\fact kebutuhan user\Merge Join 4"
           TopLeft="934,194" />
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output7]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output1]"
           TopLeft="1187.75,74">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29881,7 +29881,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output6]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output2]"
           TopLeft="400,235">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29917,7 +29917,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output5]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output]"
           TopLeft="559.5,75">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29941,7 +29941,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output4]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output3]"
           TopLeft="326.25,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29965,7 +29965,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output3]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output4]"
           TopLeft="995.75,72">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29989,7 +29989,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output2]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output5]"
           TopLeft="124,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30013,7 +30013,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output1]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output6]"
           TopLeft="763.75,73">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30037,7 +30037,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output]"
+          Id="Package\fact kebutuhan user.Paths[OLE DB Source Output7]"
           TopLeft="1188,234">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30085,7 +30085,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output6]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output]"
           TopLeft="1006,236">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30109,7 +30109,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output5]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output1]"
           TopLeft="142,242">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30133,7 +30133,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output4]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output2]"
           TopLeft="753,447">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30169,7 +30169,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output3]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output6]"
           TopLeft="1034,378">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30193,7 +30193,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output2]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output3]"
           TopLeft="536,454">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30229,7 +30229,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output1]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output4]"
           TopLeft="244.5,391">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30265,7 +30265,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Merge Join Output]"
+          Id="Package\fact kebutuhan user.Paths[Merge Join Output5]"
           TopLeft="673.75,231">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30553,7 +30553,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output11]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output]"
           TopLeft="976,430">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30589,7 +30589,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output10]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output1]"
           TopLeft="1189.5,305">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30625,7 +30625,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output9]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output2]"
           TopLeft="140.5,319">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30661,7 +30661,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output8]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output3]"
           TopLeft="307,451.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30685,7 +30685,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output7]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output4]"
           TopLeft="341.5,320">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30721,7 +30721,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output6]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output5]"
           TopLeft="1187.5,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30757,7 +30757,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output5]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output6]"
           TopLeft="995.5,157">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30793,7 +30793,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output4]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output7]"
           TopLeft="322.5,156">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30829,7 +30829,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output3]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output8]"
           TopLeft="122.083333333333,158">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30853,7 +30853,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output2]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output9]"
           TopLeft="676.5,314">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30877,7 +30877,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output1]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output10]"
           TopLeft="763.5,154">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30913,7 +30913,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact kebutuhan user.Paths[Sort Output]"
+          Id="Package\fact kebutuhan user.Paths[Sort Output11]"
           TopLeft="563,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31284,7 +31284,7 @@ where [refTable].[key_test] = ?</property>
           Id="Package\fact keterangan karyawan\Sort 1"
           TopLeft="331,96" />
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output4]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output3]"
           TopLeft="796.5,831">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31318,7 +31318,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output3]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output2]"
           TopLeft="1040.5,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31352,7 +31352,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output2]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output1]"
           TopLeft="163,122">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31386,7 +31386,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output1]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output]"
           TopLeft="331,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31420,7 +31420,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output6]"
           TopLeft="851.5,144">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31454,7 +31454,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output3]"
+          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output]"
           TopLeft="388,66">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31476,7 +31476,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output2]"
+          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output4]"
           TopLeft="849,67">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31520,7 +31520,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output]"
+          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output3]"
           TopLeft="115.5,66">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31692,7 +31692,7 @@ where [refTable].[key_test] = ?</property>
           Id="Package\fact keterangan karyawan\Sort 4"
           TopLeft="581,104" />
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output4]"
+          Id="Package\fact keterangan karyawan.Paths[OLE DB Source Output2]"
           TopLeft="637.75,66">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31718,7 +31718,7 @@ where [refTable].[key_test] = ?</property>
           Id="Package\fact keterangan karyawan\Merge Join 1"
           TopLeft="484,181" />
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output5]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output4]"
           TopLeft="634.5,146">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31816,7 +31816,7 @@ where [refTable].[key_test] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\fact keterangan karyawan.Paths[Sort Output6]"
+          Id="Package\fact keterangan karyawan.Paths[Sort Output5]"
           TopLeft="611,279">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -31955,6 +31955,19 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\fact keterangan karyawan\test pelamar">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\fact keterangan karyawan\Lookup dim waktu">
     <Properties>
       <Property>
@@ -32014,19 +32027,6 @@ where [refTable].[key_test] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\fact keterangan karyawan\pelamar">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\fact keterangan karyawan\detail pelamar">
     <Properties>
       <Property>
@@ -32059,6 +32059,19 @@ where [refTable].[key_test] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\fact keterangan karyawan\pelamar">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -33349,7 +33362,7 @@ where [refTable].[key_test] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -33385,7 +33398,7 @@ where [refTable].[key_test] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -33395,7 +33408,7 @@ where [refTable].[key_test] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -33815,19 +33828,6 @@ where [refTable].[key_test] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\fact keterangan karyawan\test pelamar">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

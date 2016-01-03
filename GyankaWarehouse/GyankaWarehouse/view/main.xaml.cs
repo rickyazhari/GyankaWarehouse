@@ -23,8 +23,9 @@ namespace GyankaWarehouse.view
          public main()
         {
             InitializeComponent();
-            submenu.Children.Add(new menu());
+            submenu.Children.Add(new menu(this));
             Content.Children.Add(new olap());
+            App.MenuViewModel.SelectedItem = Constant.OLAP_SELECTED;
         }
 
         private void exitbtn_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

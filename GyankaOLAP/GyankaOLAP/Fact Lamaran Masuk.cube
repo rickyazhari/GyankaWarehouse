@@ -1,0 +1,252 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f9275131-657b-4f1b-950d-4175aa9e338f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Lamaran Masuk</ID>
+  <Name>Fact Lamaran Masuk</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cbb643af-1b2d-44ae-bc5b-a14b273361f5">
+      <ID>Dim Usia</ID>
+      <Name>Dim Usia</Name>
+      <DimensionID>Dim Usia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4d627720-1f99-4b63-a4ae-c2ec24aa6fef">
+          <AttributeID>No Usia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc6294d4-dd47-43ef-aa69-9ace803b2883">
+          <AttributeID>Usia Pegawai</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fb1b90f5-60df-4050-9044-d2665b801893">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="9816d0f9-022e-4cb4-b31c-e7df0789d2d3">
+      <ID>Dim Jenis Kelamin</ID>
+      <Name>Dim Jenis Kelamin</Name>
+      <DimensionID>Dim Jenis Kelamin</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4505664f-1637-4616-ab9a-b9659e5e37c0">
+          <AttributeID>No Jk</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63f2d34b-9416-4dc7-83fe-f08e02cfe3c7">
+          <AttributeID>Jenis Kelamin</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a4676a4-0e45-452e-9a9e-b8d13891ad26">
+          <AttributeID>Key Kelamin</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="da0ae2ca-1c2a-43fd-b932-b9dbd4e6acad">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="229f88be-8bdf-4195-ae94-401832ecd0c1">
+      <ID>Dim Pendidikan</ID>
+      <Name>Dim Pendidikan</Name>
+      <DimensionID>Dim Pendidikan</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f36a13c9-2eef-495b-a451-ab4fab990ac1">
+          <AttributeID>No Pendidikan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09dbfea5-d162-48d2-a3a1-7ae0b74e34c3">
+          <AttributeID>Jenis Pendidikan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9238eaf-150a-40b5-bbd6-6d64e62f57bf">
+          <AttributeID>Key Pendidikan</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6a400ced-ab23-42e5-941f-50c2c5162e6d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b3b1a686-2d0f-45ef-ada9-38b863a1f9cf">
+      <ID>Dim Waktu</ID>
+      <Name>Dim Waktu</Name>
+      <DimensionID>Dim Waktu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b9e53463-c113-42d3-8955-8e20735f7bbd">
+          <AttributeID>No Waktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5db28449-52af-4a29-a8a7-ffe06bdb0a2c">
+          <AttributeID>Fullwaktu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9afaf2d-2f69-4758-8a3e-f43c3f01d420">
+          <AttributeID>Tanggal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9d29f75-27d3-4346-b292-18547e0b867b">
+          <AttributeID>Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c2cc4c4-2483-4376-b4af-76eb26682baf">
+          <AttributeID>Nama Bulan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fcb00196-e876-42de-8b12-946c5b5a4879">
+          <AttributeID>Tahun</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a410a21c-585d-4c2e-b455-56ba06ddeaff">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="bf9fec8e-f0ec-4c73-9780-f76380e42863">
+      <ID>Fact Lamaran Masuk</ID>
+      <Name>Fact Lamaran Masuk</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b01ca145-31c6-47f9-9ba8-8004db5c1b03">
+          <ID>Jumlah</ID>
+          <Name>Jumlah</Name>
+          <Source dwd:design-time-name="f32fd8cb-5944-4639-bc53-2641b7e7bd20">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="41ccf6bb-237f-40b1-911d-2b3ef4ec7202">
+              <TableID>dbo_Fact_lamaran_masuk</TableID>
+              <ColumnID>jumlah</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dc5e8a67-91a2-4a60-9655-ec0b9ee8bd4d">
+          <ID>Fact Lamaran Masuk Count</ID>
+          <Name>Fact Lamaran Masuk Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6635c198-05c2-4e0e-a25b-e6f732157ec6">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="03c5999b-3672-41ba-a99b-f80cd668a6ce">
+              <TableID>dbo_Fact_lamaran_masuk</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="95ed70f4-aed1-408d-b62c-92efff94039f">
+          <CubeDimensionID>Dim Usia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="40b4aed9-0b0e-48d5-b737-b2e18361bed3">
+              <AttributeID>No Usia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d898b017-55b5-421f-ac69-55d59acc14b5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e498c1e0-e411-43e8-96d1-52597d6aa5de">
+                    <TableID>dbo_Fact_lamaran_masuk</TableID>
+                    <ColumnID>usia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84104b28-1ebb-4c7d-bc41-08a9f5c29a6a">
+          <CubeDimensionID>Dim Jenis Kelamin</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="86d83c3e-076e-445e-aad9-170897bb0acc">
+              <AttributeID>No Jk</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="714baaf7-80fc-4058-80d7-c0c03ab0a568">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c74aa3c-1282-47b3-8052-9823a3e2c588">
+                    <TableID>dbo_Fact_lamaran_masuk</TableID>
+                    <ColumnID>kelamin</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="93ba3a37-45ea-40e9-a4e0-318e4819c90c">
+          <CubeDimensionID>Dim Pendidikan</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0751c353-3c12-4c15-8787-bb121a02fb6b">
+              <AttributeID>No Pendidikan</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="24329df6-84df-4bad-8382-4a87323db5e8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1dcdf878-4344-4eed-88bc-e848d7e71af4">
+                    <TableID>dbo_Fact_lamaran_masuk</TableID>
+                    <ColumnID>pendidikan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="49dccd7f-87dc-41ce-9752-77731fd73b47">
+          <CubeDimensionID>Dim Waktu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="948111c9-5775-433f-a7ef-7cc2f49cfb89">
+              <AttributeID>No Waktu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e5541da4-91d1-413c-be7b-3561c9ff6415">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="27836fb9-d301-43c1-ae7a-07736a00ad5c">
+                    <TableID>dbo_Fact_lamaran_masuk</TableID>
+                    <ColumnID>waktu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="247be51c-0488-4a2c-ba45-eb945f2e8ef0">
+    <DataSourceViewID>Gyanka Pratama Warehouse</DataSourceViewID>
+  </Source>
+</Cube>

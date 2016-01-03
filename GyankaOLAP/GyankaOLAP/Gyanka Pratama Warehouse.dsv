@@ -1,0 +1,388 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dc462cc1-0edc-4b71-8001-a036c897c5ca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Gyanka Pratama Warehouse</ID>
+  <Name>Gyanka Pratama Warehouse</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Gyanka Pratama Warehouse</DataSourceID>
+  <Schema>
+    <xs:schema id="Gyanka_x0020_Pratama_x0020_Warehouse" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Gyanka_x0020_Pratama_x0020_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="8bb8d41b-7575-4ee3-b393-2fa9ab66f0d3">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_dim_divisi" msprop:design-time-name="4e8cece3-d85f-49c8-b46e-346ea9b9da39" msprop:DbTableName="dim_divisi" msprop:FriendlyName="dim_divisi" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_divisi" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="36b23d7f-ffa0-4348-bb0c-104393bbc9ad" msprop:DbColumnName="no_divisi" msprop:FriendlyName="no_divisi" type="xs:int" />
+                  <xs:element name="key_divisi" msprop:design-time-name="7c757e03-2974-44d7-8a39-35b5a9e5c7c8" msprop:DbColumnName="key_divisi" msprop:FriendlyName="key_divisi" type="xs:int" />
+                  <xs:element name="nama_divisi" msprop:design-time-name="8881ac30-c9d7-44ab-8dd8-7795192b831d" msprop:DbColumnName="nama_divisi" msprop:FriendlyName="nama_divisi" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_event" msprop:design-time-name="45cd7329-8268-4393-8fd4-b3b3e3d8e788" msprop:DbTableName="dim_event" msprop:FriendlyName="dim_event" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_event" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f511d02c-74de-4dea-818e-8dd7e16ad690" msprop:DbColumnName="no_event" msprop:FriendlyName="no_event" type="xs:int" />
+                  <xs:element name="nama_event" msprop:design-time-name="8501beea-897d-4b55-8f14-11e26315b2fa" msprop:DbColumnName="nama_event" msprop:FriendlyName="nama_event" type="xs:string" />
+                  <xs:element name="key_event" msprop:design-time-name="d29e7d36-ea7e-422b-8f3c-e1e70d164906" msprop:DbColumnName="key_event" msprop:FriendlyName="key_event" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_jenis_kelamin" msprop:design-time-name="7233bd28-b32a-4487-b708-db0732c865d6" msprop:DbTableName="dim_jenis_kelamin" msprop:FriendlyName="dim_jenis_kelamin" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_jk" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ed42e08e-0a4c-4cce-8a37-6e24047fc3a8" msprop:DbColumnName="no_jk" msprop:FriendlyName="no_jk" type="xs:int" />
+                  <xs:element name="jenis_kelamin" msprop:design-time-name="9c94f95d-dcd4-4216-a9e0-7a5b6860fe9a" msprop:DbColumnName="jenis_kelamin" msprop:FriendlyName="jenis_kelamin" type="xs:string" />
+                  <xs:element name="key_kelamin" msprop:design-time-name="38388cb9-ffa7-45fe-b290-e33b4d4ead3c" msprop:DbColumnName="key_kelamin" msprop:FriendlyName="key_kelamin" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_operasional" msprop:design-time-name="43aef380-8d9e-4486-9106-f98fb2791e53" msprop:DbTableName="dim_operasional" msprop:FriendlyName="dim_operasional" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_operasional" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="9c816455-213a-4a42-bae9-98e423b7a98d" msprop:DbColumnName="no_operasional" msprop:FriendlyName="no_operasional" type="xs:int" />
+                  <xs:element name="jenis_operasional" msprop:design-time-name="b048c508-6f86-42fa-a9a4-8b8991842fa2" msprop:DbColumnName="jenis_operasional" msprop:FriendlyName="jenis_operasional" type="xs:string" />
+                  <xs:element name="key_operasional" msprop:design-time-name="b6dfe463-11b6-42cd-904b-6d727e10a584" msprop:DbColumnName="key_operasional" msprop:FriendlyName="key_operasional" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_pendidikan" msprop:design-time-name="15bc843e-10b7-4911-85d5-95e8a1b291e0" msprop:DbTableName="dim_pendidikan" msprop:FriendlyName="dim_pendidikan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_pendidikan" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="8ed5a716-8cb9-43ee-a08c-fe65d891e448" msprop:DbColumnName="no_pendidikan" msprop:FriendlyName="no_pendidikan" type="xs:int" />
+                  <xs:element name="jenis_pendidikan" msprop:design-time-name="d0cba030-674e-47c1-87cf-3a5b5e63a3af" msprop:DbColumnName="jenis_pendidikan" msprop:FriendlyName="jenis_pendidikan" type="xs:string" />
+                  <xs:element name="key_pendidikan" msprop:design-time-name="5cb26cb0-86f5-4431-90ce-d0613196dfe2" msprop:DbColumnName="key_pendidikan" msprop:FriendlyName="key_pendidikan" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_test" msprop:design-time-name="59b709c8-27bb-4bc9-8b6f-30d9634c26e4" msprop:DbTableName="dim_test" msprop:FriendlyName="dim_test" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_test" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="e47f7743-d9ec-4972-8754-e857a21cdc59" msprop:DbColumnName="no_test" msprop:FriendlyName="no_test" type="xs:int" />
+                  <xs:element name="keterangan_test" msprop:design-time-name="6d4bdd87-456b-445a-a04f-978ebc1939ff" msprop:DbColumnName="keterangan_test" msprop:FriendlyName="keterangan_test" type="xs:string" />
+                  <xs:element name="key_test" msprop:design-time-name="df066d3e-54f6-4443-85ba-e5d8a3ddc592" msprop:DbColumnName="key_test" msprop:FriendlyName="key_test" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_user" msprop:design-time-name="ccae7da1-f453-4996-9a80-03ed71dd249d" msprop:DbTableName="dim_user" msprop:FriendlyName="dim_user" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_user" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="91c99fe8-f1f6-4550-84c1-b48df576bd9c" msprop:DbColumnName="no_user" msprop:FriendlyName="no_user" type="xs:int" />
+                  <xs:element name="key_user" msprop:design-time-name="f114818c-4ce8-4500-82e2-aec2e896c98b" msprop:DbColumnName="key_user" msprop:FriendlyName="key_user" type="xs:int" />
+                  <xs:element name="nama_perusahaan" msprop:design-time-name="911d22e0-b17d-4fc7-bc80-9441b4caaa25" msprop:DbColumnName="nama_perusahaan" msprop:FriendlyName="nama_perusahaan" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_usia" msprop:design-time-name="bea052ef-2a8e-40d2-a6c6-a6d6056ea5d6" msprop:DbTableName="dim_usia" msprop:FriendlyName="dim_usia" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_usia" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="bd66727a-5196-43ba-906a-01972eb6d507" msprop:DbColumnName="no_usia" msprop:FriendlyName="no_usia" type="xs:int" />
+                  <xs:element name="usia_pegawai" msprop:design-time-name="ad6821a2-7892-456f-8406-c18078a85ead" msprop:DbColumnName="usia_pegawai" msprop:FriendlyName="usia_pegawai" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_waktu" msprop:design-time-name="0e62f4b5-7355-4b0a-8809-73b41f4b3764" msprop:DbTableName="dim_waktu" msprop:FriendlyName="dim_waktu" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_waktu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="69498be9-cd5c-4c66-8d37-6e9edc4fdefa" msprop:DbColumnName="no_waktu" msprop:FriendlyName="no_waktu" type="xs:int" />
+                  <xs:element name="fullwaktu" msprop:design-time-name="11d1a085-223a-4869-a527-c198b2271b97" msprop:DbColumnName="fullwaktu" msprop:FriendlyName="fullwaktu" type="xs:dateTime" />
+                  <xs:element name="tanggal" msprop:design-time-name="864e4d5e-45a4-443d-92b2-4eb8d982e62a" msprop:DbColumnName="tanggal" msprop:FriendlyName="tanggal" type="xs:int" />
+                  <xs:element name="bulan" msprop:design-time-name="091f1479-70f6-4f4b-989c-e0d5080df78b" msprop:DbColumnName="bulan" msprop:FriendlyName="bulan" type="xs:int" />
+                  <xs:element name="nama_bulan" msprop:design-time-name="f523c662-6d70-4f5c-8418-5d35868ff28f" msprop:DbColumnName="nama_bulan" msprop:FriendlyName="nama_bulan">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tahun" msprop:design-time-name="248ecd8c-e2e3-4bb4-ba71-e4f8024cf7f6" msprop:DbColumnName="tahun" msprop:FriendlyName="tahun" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_kebutuhan_user" msprop:design-time-name="893aad6a-b1af-4bfc-81b0-fd950a41f661" msprop:DbTableName="fact_kebutuhan_user" msprop:FriendlyName="fact_kebutuhan_user" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="50926320-b010-4131-aaaf-dd2cb5143c67" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="pendidikan" msprop:design-time-name="99f61257-f995-4a25-84c0-cdb2973f19ef" msprop:DbColumnName="pendidikan" msprop:FriendlyName="pendidikan" type="xs:int" />
+                  <xs:element name="usia" msprop:design-time-name="1f3620f9-ffb1-422a-b684-1ff5013b51cd" msprop:DbColumnName="usia" msprop:FriendlyName="usia" type="xs:int" />
+                  <xs:element name="kelamin" msprop:design-time-name="e4891054-72ee-457c-8a88-ba29ed796c19" msprop:DbColumnName="kelamin" msprop:FriendlyName="kelamin" type="xs:int" />
+                  <xs:element name="divisi" msprop:design-time-name="8ef34eeb-8cf6-4368-8180-07f5d1ec7ff3" msprop:DbColumnName="divisi" msprop:FriendlyName="divisi" type="xs:int" />
+                  <xs:element name="kebutuhan" msprop:design-time-name="c88ee0da-a9df-443f-8e97-4530625cb3f7" msprop:DbColumnName="kebutuhan" msprop:FriendlyName="kebutuhan" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_keterangan_karyawan" msprop:design-time-name="46020c21-2e56-46b3-9a67-e5cf6bc48fa5" msprop:DbTableName="fact_keterangan_karyawan" msprop:FriendlyName="fact_keterangan_karyawan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="18e5c65b-d648-481f-b5c7-969464398f0e" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="divisi" msprop:design-time-name="43014d79-a74d-4afb-89e0-2df30a0104f8" msprop:DbColumnName="divisi" msprop:FriendlyName="divisi" type="xs:int" />
+                  <xs:element name="usia" msprop:design-time-name="08579734-8b0f-4bde-84fd-1d8a1acd5186" msprop:DbColumnName="usia" msprop:FriendlyName="usia" type="xs:int" />
+                  <xs:element name="pendidikan" msprop:design-time-name="af0a93eb-cfe0-477e-9d6e-3fefd46a09fa" msprop:DbColumnName="pendidikan" msprop:FriendlyName="pendidikan" type="xs:int" />
+                  <xs:element name="jumlah_pegawai" msprop:design-time-name="79829c0a-dc47-4016-97e2-db2eefb0f003" msprop:DbColumnName="jumlah_pegawai" msprop:FriendlyName="jumlah_pegawai" type="xs:int" />
+                  <xs:element name="kelamin" msprop:design-time-name="d351a941-1e3a-4201-ae0b-8cb20e21588b" msprop:DbColumnName="kelamin" msprop:FriendlyName="kelamin" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_lamaran_masuk" msprop:design-time-name="0f4fcaca-215c-4810-87ff-d318800e8dae" msprop:DbTableName="Fact_lamaran_masuk" msprop:FriendlyName="Fact_lamaran_masuk" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="bb6f2c28-1c43-43e9-bc75-153ff6b36403" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="pendidikan" msprop:design-time-name="d95d15b8-8dc4-4a99-a4c0-da9691f6ece7" msprop:DbColumnName="pendidikan" msprop:FriendlyName="pendidikan" type="xs:int" />
+                  <xs:element name="kelamin" msprop:design-time-name="d7e874bb-c827-459f-96fe-4fa3854c1795" msprop:DbColumnName="kelamin" msprop:FriendlyName="kelamin" type="xs:int" />
+                  <xs:element name="jumlah" msprop:design-time-name="7ee91ef8-bb9b-4ac9-a299-55c5b74759d5" msprop:DbColumnName="jumlah" msprop:FriendlyName="jumlah" type="xs:int" />
+                  <xs:element name="usia" msprop:design-time-name="b012f8a4-ffee-4cd9-90ed-9c2bd065eb14" msprop:DbColumnName="usia" msprop:FriendlyName="usia" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_pendapatan" msprop:design-time-name="d25c1867-0a86-4b15-8b6f-1f3b196e6713" msprop:DbTableName="fact_pendapatan" msprop:FriendlyName="fact_pendapatan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="4ef8dbe8-57de-44c5-a3ef-6b02f6b19699" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="divisi" msprop:design-time-name="95dc9f4d-3241-4f86-8cd7-6853d8c2efda" msprop:DbColumnName="divisi" msprop:FriendlyName="divisi" type="xs:int" />
+                  <xs:element name="pendapatan" msprop:design-time-name="d47540d3-f168-45a5-a0bf-8e8720636baf" msprop:DbColumnName="pendapatan" msprop:FriendlyName="pendapatan" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_pengeluaran_event" msprop:design-time-name="63881c74-f290-462c-8dea-992670959aaf" msprop:DbTableName="fact_pengeluaran_event" msprop:FriendlyName="fact_pengeluaran_event" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="4bedf482-66db-4b8c-b915-0dd9a4fe41a8" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="event" msprop:design-time-name="7f49dcb0-8db8-4c8b-9d28-e60c0d2007f7" msprop:DbColumnName="event" msprop:FriendlyName="event" type="xs:int" />
+                  <xs:element name="pengeluaran" msprop:design-time-name="17d50fcb-6073-43bf-ae8e-c732cd11edc6" msprop:DbColumnName="pengeluaran" msprop:FriendlyName="pengeluaran" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_pengeluaran_operasional" msprop:design-time-name="9de04e4e-3be5-4da1-b1b0-401e6a8c627b" msprop:DbTableName="fact_pengeluaran_operasional" msprop:FriendlyName="fact_pengeluaran_operasional" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="ba993b6a-1565-40c9-8814-c40ab5330c03" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="operasional" msprop:design-time-name="98b32c87-d0da-4682-aae4-916952cf9f3d" msprop:DbColumnName="operasional" msprop:FriendlyName="operasional" type="xs:int" />
+                  <xs:element name="pengeluaran" msprop:design-time-name="f1d8bdab-abd0-49c7-8d73-1bac03ea15d4" msprop:DbColumnName="pengeluaran" msprop:FriendlyName="pengeluaran" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_pengeluaran_test" msprop:design-time-name="1e2ed6bd-a0d7-4ed0-a372-1a7631c93339" msprop:DbTableName="fact_pengeluaran_test" msprop:FriendlyName="fact_pengeluaran_test" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="ff5d418d-38fa-438b-934a-0ae41812b57d" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="test" msprop:design-time-name="1c5a1e75-7714-4d4a-8fd3-acabf4810ab4" msprop:DbColumnName="test" msprop:FriendlyName="test" type="xs:int" />
+                  <xs:element name="pengeluaran" msprop:design-time-name="587c9b4c-6e08-4360-8819-35a657522ba3" msprop:DbColumnName="pengeluaran" msprop:FriendlyName="pengeluaran" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_permintaan_karyawan" msprop:design-time-name="f1169f56-5454-4c0c-8c88-3aae8c2d0607" msprop:DbTableName="fact_permintaan_karyawan" msprop:FriendlyName="fact_permintaan_karyawan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="e8d9bf6a-9798-456d-adce-5ba2510aecaa" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="divisi" msprop:design-time-name="696d8f6f-5b9f-49b4-84e9-b2dd8a2fe569" msprop:DbColumnName="divisi" msprop:FriendlyName="divisi" type="xs:int" />
+                  <xs:element name="permintaan" msprop:design-time-name="f85055b0-d6cd-4803-8dc0-afea3053f2e0" msprop:DbColumnName="permintaan" msprop:FriendlyName="permintaan" type="xs:int" />
+                  <xs:element name="pendidikan" msprop:design-time-name="54af2b7d-2549-4b85-b491-f876d990586e" msprop:DbColumnName="pendidikan" msprop:FriendlyName="pendidikan" type="xs:int" />
+                  <xs:element name="kelamin" msprop:design-time-name="20b20167-7705-4803-bb97-4d31d21a8a20" msprop:DbColumnName="kelamin" msprop:FriendlyName="kelamin" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_test" msprop:design-time-name="d80a0e89-9167-44b0-b3a1-1c4fcca72f9d" msprop:DbTableName="fact_test" msprop:FriendlyName="fact_test" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="waktu" msprop:design-time-name="e03d198f-f7ce-452e-b22d-c6e20822b5dd" msprop:DbColumnName="waktu" msprop:FriendlyName="waktu" type="xs:int" />
+                  <xs:element name="test" msprop:design-time-name="d3362de2-12d5-4301-8dac-493ec64634b8" msprop:DbColumnName="test" msprop:FriendlyName="test" type="xs:int" />
+                  <xs:element name="divisi" msprop:design-time-name="cbf14eb0-deb0-4db6-8986-77c42ca4467c" msprop:DbColumnName="divisi" msprop:FriendlyName="divisi" type="xs:int" />
+                  <xs:element name="lulus_tes_awal" msprop:design-time-name="7f1156f4-e6f5-4254-8854-df3ceba89185" msprop:DbColumnName="lulus_tes_awal" msprop:FriendlyName="lulus_tes_awal" type="xs:int" />
+                  <xs:element name="tidak_lulus" msprop:design-time-name="306ab367-b5fe-4f83-af15-75d3346c3bc9" msprop:DbColumnName="tidak_lulus" msprop:FriendlyName="tidak_lulus" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_divisi" />
+          <xs:field xpath="no_divisi" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_event_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_event" />
+          <xs:field xpath="no_event" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_jenis_kelamin_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_jenis_kelamin" />
+          <xs:field xpath="no_jk" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_operasional_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_operasional" />
+          <xs:field xpath="no_operasional" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_pendidikan_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_pendidikan" />
+          <xs:field xpath="no_pendidikan" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_test_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_test" />
+          <xs:field xpath="no_test" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_user_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_user" />
+          <xs:field xpath="no_user" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_usia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_usia" />
+          <xs:field xpath="no_usia" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_waktu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_waktu" />
+          <xs:field xpath="no_waktu" />
+        </xs:unique>
+        <xs:keyref name="FK_fakta_test_dim_divisi" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_test" />
+          <xs:field xpath="divisi" />
+        </xs:keyref>
+        <xs:keyref name="FK_fakta_test_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_test" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fakta_test_dim_test" refer="dbo_dim_test_Constraint1">
+          <xs:selector xpath=".//dbo_fact_test" />
+          <xs:field xpath="test" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_permintaan_karyawan_dim_divisi" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_permintaan_karyawan" />
+          <xs:field xpath="divisi" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_permintaan_karyawan_dim_pendidikan" refer="dbo_dim_pendidikan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_permintaan_karyawan" />
+          <xs:field xpath="pendidikan" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_permintaan_karyawan_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_permintaan_karyawan" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_permintaan_karyawan_dim_jenis_kelamin" refer="dbo_dim_jenis_kelamin_Constraint1">
+          <xs:selector xpath=".//dbo_fact_permintaan_karyawan" />
+          <xs:field xpath="kelamin" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_test_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_test" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_test_dim_test" refer="dbo_dim_test_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_test" />
+          <xs:field xpath="test" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_operasional_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_operasional" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_operasional_dim_operasional" refer="dbo_dim_operasional_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_operasional" />
+          <xs:field xpath="operasional" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_event_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_event" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pengeluaran_event_dim_event" refer="dbo_dim_event_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pengeluaran_event" />
+          <xs:field xpath="event" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pendapatan_dim_divisi" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_pendapatan" />
+          <xs:field xpath="divisi" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_pendapatan_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_pendapatan" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_lamaran_masuk_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_lamaran_masuk" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_lamaran_masuk_dim_pendidikan" refer="dbo_dim_pendidikan_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_lamaran_masuk" />
+          <xs:field xpath="pendidikan" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_lamaran_masuk_dim_jenis_kelamin" refer="dbo_dim_jenis_kelamin_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_lamaran_masuk" />
+          <xs:field xpath="kelamin" />
+        </xs:keyref>
+        <xs:keyref name="FK_Fact_lamaran_masuk_dim_usia" refer="dbo_dim_usia_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_lamaran_masuk" />
+          <xs:field xpath="usia" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_keterangan_karyawan_dim_pendidikan" refer="dbo_dim_pendidikan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_keterangan_karyawan" />
+          <xs:field xpath="pendidikan" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_keterangan_karyawan_dim_jenis_kelamin" refer="dbo_dim_jenis_kelamin_Constraint1">
+          <xs:selector xpath=".//dbo_fact_keterangan_karyawan" />
+          <xs:field xpath="kelamin" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_keterangan_karyawan_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_keterangan_karyawan" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_keterangan_karyawan_dim_divisi" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_keterangan_karyawan" />
+          <xs:field xpath="divisi" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_keterangan_karyawan_dim_usia" refer="dbo_dim_usia_Constraint1">
+          <xs:selector xpath=".//dbo_fact_keterangan_karyawan" />
+          <xs:field xpath="usia" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_kebutuhan_user_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_kebutuhan_user" />
+          <xs:field xpath="waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_kebutuhan_user_dim_divisi" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_kebutuhan_user" />
+          <xs:field xpath="divisi" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_kebutuhan_user_dim_usia" refer="dbo_dim_usia_Constraint1">
+          <xs:selector xpath=".//dbo_fact_kebutuhan_user" />
+          <xs:field xpath="usia" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_kebutuhan_user_dim_pendidikan" refer="dbo_dim_pendidikan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_kebutuhan_user" />
+          <xs:field xpath="pendidikan" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_kebutuhan_user_dim_jenis_kelamin" refer="dbo_dim_jenis_kelamin_Constraint1">
+          <xs:selector xpath=".//dbo_fact_kebutuhan_user" />
+          <xs:field xpath="kelamin" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Gyanka_x0020_Pratama_x0020_Warehouse xmlns="" />
+  </Schema>
+</DataSourceView>

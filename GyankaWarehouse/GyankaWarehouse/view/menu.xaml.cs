@@ -20,10 +20,12 @@ namespace GyankaWarehouse.view
     /// </summary>
     public partial class menu : UserControl
     {
-        public menu()
+        private main parent;
+        public menu( main x)
         {
             InitializeComponent();
             DataContext = App.MenuViewModel;
+            parent = x;
         }
 
         private void ListMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -118,6 +120,36 @@ namespace GyankaWarehouse.view
                     default:
                         App.DimFactViewModel.Generateheader(Constant.PREFIX_FAKTA + " " + Constant.KEBUTUHAN_USER);
                         App.DimFactViewModel.GenerateTabel(Constant.FAKTA_KEBUTUHAN_USER);
+                        break;
+                }
+            }
+
+            if (App.MenuViewModel.SelectedItem == Constant.OLAP_SELECTED)
+            {
+                MessageBox.Show(ListMenu.SelectedIndex.ToString());
+                parent.Content.Children.Clear();
+                switch (ListMenu.SelectedIndex)
+                {
+                    case 1:
+                        parent.Content.Children.Add(new OlapLamaranMasuk());
+                        break;
+                    case 2:
+                        parent.Content.Children.Add(new OlapPengeluaranEvent());
+                        break;
+                    case 3:
+                        parent.Content.Children.Add(new OlapPengeluaranOperasional());
+                        break;
+                    case 4:
+                        parent.Content.Children.Add(new OlapPengeluaranTest());
+                        break;
+                    case 5:
+                        parent.Content.Children.Add(new OlapKeteranganPegawai());
+                        break;
+                    case 6:
+                        parent.Content.Children.Add(new OlapKebutuhan());
+                        break;
+                    default:
+                        parent.Content.Children.Add(new olap());
                         break;
                 }
             }

@@ -129,6 +129,7 @@
             <StackPanel
                 Grid.Column="1"
                 Grid.Row="1"
+                x:FieldModifier="public"
                 x:Name="Content">
                 
             </StackPanel>
